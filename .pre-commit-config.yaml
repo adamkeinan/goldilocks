@@ -21,7 +21,7 @@ repos:
      - id: pretty-format-json
        args: ['--autofix']
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 1.11.0
+    rev: 2.1.6
     hooks:
       - id: forbid-binary
         exclude: >
@@ -36,7 +36,7 @@ repos:
       - id: shellcheck
       - id: git-check
   - repo: https://github.com/dnephin/pre-commit-golang.git
-    rev: v0.3.4
+    rev: v0.5.0
     hooks:
       - id: go-fmt
       - id: go-vet
