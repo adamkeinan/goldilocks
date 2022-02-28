@@ -12,4 +12,3 @@ document.addEventListener("DOMContentLoaded", function(){
     link.parentNode.replaceChild(linkClone, link);
   }, 1000);
 });
-
